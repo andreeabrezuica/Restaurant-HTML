@@ -1,0 +1,146 @@
+/*story*/
+.story__wrapper
+{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    background-color: aliceblue;
+    border-radius: 12px;
+}
+.titlen{
+    font-size: 6rem;
+    font-weight: 600;
+    color: var(--black-1);
+    margin-bottom: 1rem;
+    margin-left: 50rem;
+    margin-right: 50rem;
+}
+
+.subtitlen{
+    font-size: 5rem;
+    font-weight: 600;
+    color: var(--black-1);
+   margin-bottom: 0.1rem;
+    margin-left: 80rem;
+}
+
+.story__info{
+    font-size: 2rem;
+    line-height: 1.4em;
+    color: var(--black-2);
+    max-width: 800px;
+}
+.story__img{
+    flex: 1;
+}
+.story__img img{
+    object-fit: cover;
+    border-radius: 12px;
+}
+.story__text{
+    flex: 1;
+}
+
+.story2__wrapper
+{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    background-color: aliceblue;
+    border-radius: 12px;
+}
+.story2__info{
+    font-size: 2rem;
+    line-height: 1.4em;
+    color: var(--black-2);
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.story2__img{
+    flex: 1;
+}
+.story2__img img{
+    object-fit: cover;
+    border-radius: 12px;
+}
+.story2__text{
+    flex: 1;
+}
+
+.story3__wrapper
+{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    background-color: aliceblue;
+    border-radius: 12px;
+}
+.story3__info{
+    font-size: 2rem;
+    line-height: 1.4em;
+    color: var(--black-2);
+    margin-top: 2rem;
+    
+}
+.story3__img{
+    flex: 1;
+    
+}
+.story3__img img{
+    border-radius: 12px;
+    object-fit: cover;
+}
+.story3__text{
+    flex: 1;
+}
+
+.story4__wrapper
+{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    background-color: aliceblue;
+    border-radius: 12px;
+}
+.story4__info{
+    font-size: 2rem;
+    line-height: 1.4em;
+    color: var(--black-2);
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.story4__img{
+    flex: 1;
+    
+}
+.story4__img img{
+    border-radius: 12px;
+    object-fit: cover;
+
+}
+.story4__text{
+    flex: 1;
+}
+
+/*goals*/
+.goals__info{
+    text-align: left;
+    margin-bottom: 5rem;
+}
+.goals__title{
+    font-size: 7rem;
+    font-weight: 600;
+    color: var(--black-1);
+    margin-bottom: 1rem;
+}
+.goals__text{font-size: 3rem;
+line-height: 1.4em;
+color: var(--black-2);
+margin-top: 2rem;}
+
+.goals__wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+
+}
